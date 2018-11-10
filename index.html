@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Decision Maker</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container animated bounceInUp">
+
+        <!-- Header -->
+        <div class="jumbotron">
+            <h1 class="text-center">Make Up Your Mind!</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md">
+                <h2>Search a City</h2>
+            </div>
+            <div class="col-md"></div>
+            <div class="col-md">
+                <h2>Search a Movie</h2>
+            </div>
+            <div class="col-md"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <div class="form-group">
+                        <label for="city-input">City:</label>
+                        <input class="form-control" id="city-input" placeholder="Enter City..." type="text">
+                        <button class="btn btn-primary float-left" id="submit-btn-yelp">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6 ">
+                <form>
+                    <div class="form-group">
+                        <label for="movie-input">Movie:</label>
+                        <input class="form-control" id="movie-input" placeholder="Enter Movie Title..." type="text">
+                        <button class="btn btn-primary" id="submit-omdb">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 header">
+                <h4>Activities</h4>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">Restaurant Options</div>
+                    <div class="card-body" id="rest-options">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">Movie Options</div>
+                    <div class="card-body" id="movie-options">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <button class="btn btn-primary float-left" id="yelp-make-decision-btn">Make Decision</button>
+            </div>
+
+            <div class="col-md-6">
+                <button class="btn btn-primary float-left" id="decide-omdb">Make Decision</button>
+            </div>
+
+        </div>
+    
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card mb-4" id="yelp-decision-card">
+                    <div class="card-body" id="yelp-decision-body"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-4" id="omdb-decision-card">
+                    <div class="card-body" id="omdb-decision-body"></div>
+                </div>
+            </div>
+
+        </div>
+
+            <br />
+            <br />
+            <br />
+
+            </div>
+
+        <script src="assets/script.js" type="text/javascript"></script>
+</body>
+
+</html>

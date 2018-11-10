@@ -1,0 +1,21 @@
+h4 {
+    text-align: center;
+}
+
+.header {
+    background-color: #e9ecef;
+}
+
+#submit-btn-yelp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit-omdb{
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+
+#yelp-make-decision-btn {
+    margin-bottom: 20px;
+}
